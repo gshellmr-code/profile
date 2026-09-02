@@ -1,1 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title"><title id="title">ITS Engineer mark</title><rect width="512" height="512" rx="96" fill="#090d16"/><rect x="64" y="64" width="384" height="384" rx="72" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="2"/><path d="M118 356V156h62l76 112V156h62v200h-62l-76-112v112h-62Z" fill="#fff"/><path d="M314 156h80v48h-80zm0 72h64v48h-64z" fill="#fff" fill-opacity=".72"/><text x="256" y="410" fill="#fff" fill-opacity=".55" font-family="Arial,Helvetica,sans-serif" font-size="28" text-anchor="middle" letter-spacing="9">ITS ENGINEER</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ITS Engineer</title>
+  <desc id="desc">Professional ITS Engineer monogram mark with technical circuit geometry.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b12"/>
+      <stop offset="1" stop-color="#151d2b"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="96" fill="url(#grid)"/>
+  <rect x="48" y="48" width="416" height="416" rx="72" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2"/>
+
+  <!-- Technical circuit frame -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3">
+    <path d="M80 145h48v-28h48"/>
+    <path d="M384 145h-48v-28h-48"/>
+    <path d="M80 367h48v28h48"/>
+    <path d="M384 367h-48v28h-48"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.55">
+    <circle cx="80" cy="145" r="5"/>
+    <circle cx="384" cy="145" r="5"/>
+    <circle cx="80" cy="367" r="5"/>
+    <circle cx="384" cy="367" r="5"/>
+  </g>
+
+  <!-- ITS monogram: explicit I + T + S, no N/F glyph -->
+  <g fill="#ffffff">
+    <!-- I -->
+    <rect x="102" y="170" width="42" height="152" rx="7"/>
+    <!-- T -->
+    <rect x="166" y="170" width="92" height="42" rx="7"/>
+    <rect x="191" y="170" width="42" height="152" rx="7"/>
+    <!-- S -->
+    <path d="M365 170h-91v42h91v34h-91v76h91v-42h-49v-34h91v-76z"/>
+  </g>
+
+  <path d="M102 350H410" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+  <text x="256" y="385" fill="#ffffff" fill-opacity="0.52" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" letter-spacing="6">ITS ENGINEER</text>
+  <text x="256" y="414" fill="#ffffff" fill-opacity="0.34" font-family="Arial,Helvetica,sans-serif" font-size="11" text-anchor="middle" letter-spacing="4">IDEAS TO SOFTWARE</text>
+</svg>
