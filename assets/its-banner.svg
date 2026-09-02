@@ -1,39 +1,90 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
   <title id="title">ITS Engineer — Ideas To Software</title>
-  <desc id="desc">Minimal technical banner for ITS Engineer.</desc>
+  <desc id="desc">Professional technical banner for ITS Engineer with an ITS monogram, circuit traces, nodes, grid and software engineering motifs.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#090d16"/>
-      <stop offset="1" stop-color="#111827"/>
+      <stop offset="0" stop-color="#070b12"/>
+      <stop offset="0.55" stop-color="#0d1420"/>
+      <stop offset="1" stop-color="#151d2b"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".055"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
     </pattern>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#fff" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#fff" stop-opacity=".45"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
   </defs>
+
   <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
   <rect width="1600" height="420" rx="28" fill="url(#grid)"/>
-  <g fill="none" stroke="#fff" stroke-opacity=".14">
-    <circle cx="1340" cy="80" r="170"/><circle cx="1340" cy="80" r="110"/><circle cx="1340" cy="80" r="50"/>
-    <path d="M1160 300H1540M1190 330H1510"/>
+
+  <!-- Ambient technical geometry -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.10">
+    <circle cx="1360" cy="85" r="185"/>
+    <circle cx="1360" cy="85" r="135"/>
+    <circle cx="1360" cy="85" r="82"/>
+    <path d="M1120 310H1535M1160 340H1495M1210 370H1450"/>
+    <path d="M1090 120h90v45h85v-55h95"/>
   </g>
-  <g transform="translate(105 100)">
-    <rect x="0" y="0" width="220" height="220" rx="38" fill="#0d1320" stroke="#fff" stroke-opacity=".18"/>
-    <path d="M55 165V55h34l42 64V55h34v110h-34l-42-64v64H55Z" fill="#fff"/>
-    <path d="M165 55h0" stroke="#fff" stroke-width="1"/>
-    <text x="110" y="197" fill="#fff" fill-opacity=".52" font-family="Arial,Helvetica,sans-serif" font-size="15" text-anchor="middle" letter-spacing="4">ITS</text>
+
+  <!-- Circuit network -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2">
+    <path d="M1060 245h85v-48h80v62h96v-42h88"/>
+    <path d="M1150 355v-58h72v-45h76"/>
+    <path d="M1320 270h65v55h105"/>
   </g>
-  <g fill="#fff" font-family="Arial,Helvetica,sans-serif">
-    <text x="385" y="150" font-size="68" font-weight="700" letter-spacing="-2">ITS Engineer</text>
-    <text x="390" y="205" font-size="25" fill-opacity=".72" letter-spacing="6">IDEAS TO SOFTWARE</text>
-    <rect x="390" y="245" width="610" height="2" fill="url(#line)"/>
-    <text x="390" y="288" font-size="19" fill-opacity=".58">Software • Systems • AI • Android • Windows • Open Source</text>
+  <g fill="#ffffff" fill-opacity="0.65">
+    <circle cx="1060" cy="245" r="4"/>
+    <circle cx="1145" cy="197" r="4"/>
+    <circle cx="1225" cy="259" r="4"/>
+    <circle cx="1321" cy="217" r="4"/>
+    <circle cx="1150" cy="355" r="4"/>
+    <circle cx="1222" cy="297" r="4"/>
+    <circle cx="1300" cy="252" r="4"/>
+    <circle cx="1385" cy="325" r="4"/>
   </g>
-  <g fill="#fff" fill-opacity=".35">
-    <circle cx="1130" cy="290" r="4"/><circle cx="1190" cy="250" r="3"/><circle cx="1260" cy="315" r="5"/><circle cx="1390" cy="245" r="3"/><circle cx="1470" cy="300" r="4"/>
+
+  <!-- ITS monogram: I + T + S, deliberately no N/F-like glyph -->
+  <g transform="translate(92 78)">
+    <rect width="270" height="264" rx="44" fill="#0b111c" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+    <rect x="18" y="18" width="234" height="228" rx="32" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+    <g fill="#ffffff">
+      <!-- I -->
+      <rect x="45" y="67" width="24" height="126" rx="5"/>
+      <!-- T -->
+      <rect x="84" y="67" width="74" height="24" rx="5"/>
+      <rect x="109" y="67" width="24" height="126" rx="5"/>
+      <!-- S -->
+      <path d="M213 68h-48v24h48v27h-48v50h48v24h-72v-24h48v-26h-48V68h72z"/>
+    </g>
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2">
+      <path d="M45 211h168"/>
+      <path d="M45 221h92"/>
+    </g>
+    <text x="135" y="238" fill="#ffffff" fill-opacity="0.48" font-family="Arial,Helvetica,sans-serif" font-size="11" text-anchor="middle" letter-spacing="4">IDEAS TO SOFTWARE</text>
   </g>
+
+  <!-- Main identity -->
+  <g fill="#ffffff" font-family="Arial,Helvetica,sans-serif">
+    <text x="415" y="145" font-size="68" font-weight="700" letter-spacing="-2">ITS Engineer</text>
+    <text x="420" y="198" font-size="24" fill-opacity="0.68" letter-spacing="7">IDEAS TO SOFTWARE</text>
+    <rect x="420" y="232" width="590" height="2" fill="url(#accent)"/>
+    <text x="420" y="275" font-size="19" fill-opacity="0.58">Software • Systems • AI • Android • Windows • Open Source</text>
+    <text x="420" y="314" font-size="15" fill-opacity="0.38" letter-spacing="2">THINK  /  EXPLORE  /  ENGINEER  /  BUILD  /  IMPROVE</text>
+  </g>
+
+  <!-- Subtle data points -->
+  <g fill="#ffffff" fill-opacity="0.28">
+    <circle cx="1040" cy="105" r="3"/>
+    <circle cx="1110" cy="75" r="2"/>
+    <circle cx="1190" cy="110" r="3"/>
+    <circle cx="1510" cy="190" r="3"/>
+    <circle cx="1450" cy="240" r="2"/>
+  </g>
+  <rect x="1035" y="48" width="420" height="3" rx="2" fill="#ffffff" fill-opacity="0.08" filter="url(#soft)"/>
 </svg>
