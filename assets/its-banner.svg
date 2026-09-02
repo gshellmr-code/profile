@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">ITS Engineer — Ideas To Software</title>
+  <desc id="desc">Minimal technical banner for ITS Engineer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d16"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".055"/>
+    </pattern>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="28" fill="url(#grid)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".14">
+    <circle cx="1340" cy="80" r="170"/><circle cx="1340" cy="80" r="110"/><circle cx="1340" cy="80" r="50"/>
+    <path d="M1160 300H1540M1190 330H1510"/>
+  </g>
+  <g transform="translate(105 100)">
+    <rect x="0" y="0" width="220" height="220" rx="38" fill="#0d1320" stroke="#fff" stroke-opacity=".18"/>
+    <path d="M55 165V55h34l42 64V55h34v110h-34l-42-64v64H55Z" fill="#fff"/>
+    <path d="M165 55h0" stroke="#fff" stroke-width="1"/>
+    <text x="110" y="197" fill="#fff" fill-opacity=".52" font-family="Arial,Helvetica,sans-serif" font-size="15" text-anchor="middle" letter-spacing="4">ITS</text>
+  </g>
+  <g fill="#fff" font-family="Arial,Helvetica,sans-serif">
+    <text x="385" y="150" font-size="68" font-weight="700" letter-spacing="-2">ITS Engineer</text>
+    <text x="390" y="205" font-size="25" fill-opacity=".72" letter-spacing="6">IDEAS TO SOFTWARE</text>
+    <rect x="390" y="245" width="610" height="2" fill="url(#line)"/>
+    <text x="390" y="288" font-size="19" fill-opacity=".58">Software • Systems • AI • Android • Windows • Open Source</text>
+  </g>
+  <g fill="#fff" fill-opacity=".35">
+    <circle cx="1130" cy="290" r="4"/><circle cx="1190" cy="250" r="3"/><circle cx="1260" cy="315" r="5"/><circle cx="1390" cy="245" r="3"/><circle cx="1470" cy="300" r="4"/>
+  </g>
+</svg>
